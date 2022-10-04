@@ -6,6 +6,7 @@ import androidx.lifecycle.ViewModel
 import com.udacity.shoestore.models.Shoe
 
 class AddShoeViewModel : ViewModel() {
+
     private val _dataToSave = MutableLiveData<Shoe>()
     val dataToSave: LiveData<Shoe>
         get() = _dataToSave
